@@ -17,3 +17,6 @@ python:
   version: 2.7
   install:
     - requirements: docs/requirements.txt
+    - requirements: requirements.txt
+    - method: setuptools
+      path: setup.py
